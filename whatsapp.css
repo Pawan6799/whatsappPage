@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    display: grid;
+    grid-template-columns: 0.9fr 2fr;
+    grid-template-rows: 100%;
+    
+}
+/*Left side bar start*/
+.Leftsidebar{
+    border-right: 1px solid #bbb;
+    
+}
+.myprofile{
+    
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    padding: 10px;
+    background-color: #eee;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   background-color: skyblue;
+}
+.newchat{
+    margin-left: auto;
+}
+.newchat li{
+   margin-right: 35px;
+   font-size: 1.5rem;
+}
+.menu li{
+    margin-right: 30px;
+    font-size: 1.5rem;
+    
+}
+.sidebars{
+    border-bottom: 1px solid #ccc;
+}
+.searchbar{
+    margin: 10px 10px;
+    /*background-color: red;*/
+    padding: 8px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    
+    display: flex;
+}
+.searchtext{
+    margin-left: 50px;
+}
+.chats{
+    
+    height: 100%;
+    overflow: scroll;
+
+}
+.chats:hover{
+    background-color: #eee;
+}
+.firstchat{
+    display: flex;
+    border: 1px solid #ccc;
+    
+    padding: 10px;
+}
+.profile1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   background-color: skyblue;
+   
+}
+.name1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.time1{
+    margin-left: auto;
+    margin-top: 10px;
+}
+.m1{
+    color: green;
+}
+/*Left side bar end*/
+
+
+/*Right side bar start*/
+
+
+.Rightsidebar{
+    
+}
+.chatprofile{
+    display: flex;
+    padding: 10px;
+    background-color: #eee;
+
+}
+.chatprofileicon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   background-color: skyblue;
+}
+.chatsearch{
+ margin-top: 10px;
+margin-left: auto;
+ font-size: 1.5rem;
+ margin-right: 20px;
+ 
+}
+.chatmenu{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-right: 5px;
+    
+}
+.emoji{
+    font-size: 1.5rem; 
+}
+.sh1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.chatbottom{
+    position:fixed;
+    bottom:0px;
+    padding: 15px;
+    width:100%;
+    display: flex;
+    background-color: #eee;
+    
+}
+.chatsearch1{
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+.typemsg{
+ margin-left: 40px;
+ width: 750px;
+ padding: 10px;
+ border-radius: 10px;
+ border: 1px solid #ccc;
+ background-color:white;
+}
+.chatmenu1{
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.hello{
+    margin-left:800px;
+    color:green ;
+}
+.howareyou{
+    margin-left: 730px;
+    background-color:lightblue;
+    
+}
+
+/*Right side bar end*/
+
